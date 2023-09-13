@@ -47,7 +47,6 @@ int main(){
     }
     while(j!=0){
         ans+=b[j-1];
-        j--;
     }
     reverse(ans.begin(), ans.end());
     cout<<ans<<endl;
